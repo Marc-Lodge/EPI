@@ -68,7 +68,7 @@ For the modelling, I set up predictor matrix(-ces) (X) and target arrays (y), fi
 
 Looking at the correlation heatmap for the EPI score vs its components, you can get a good idea of the weighting / aggregation they assigned to each of the 11 ‘Issue’ categories without having to delve into their detailed report.
 
-![.](https://github.com/Marc-Lodge/Environmental_Performance_Index/blob/main/EPI_Heatmap.png)
+![.](https://github.com/Marc-Lodge/Environmental_Performance_Index/blob/main/Images/EPI_Heatmap.png)
 
 Environmental Health, being the objective and essentially what the EPI is trying to measure, is unsurprisingly the most correlated.
 
@@ -78,7 +78,7 @@ For comparison, Biodiversity appears to be the least correlated.
 
 #### Non Environmental Variables
 
-![.](https://github.com/Marc-Lodge/Environmental_Performance_Index/blob/main/EPI_NON_Heatmap.png)
+![.](https://github.com/Marc-Lodge/Environmental_Performance_Index/blob/main/Images/EPI_NON_Heatmap.png)
 
 The first thing that is clear, is that a country's size, population and population density have nil to a slightly negative correlation to the EPI. 
 
@@ -88,7 +88,7 @@ The two most positively correlated variables are GDP and life expectancy. GDP is
 
 The life-expectancy, is this another variable that is strongly related to wealth? Or is there a correlation between a Nation's social and environmental policies?
 
-![.](https://github.com/Marc-Lodge/Environmental_Performance_Index/blob/main/Hist.png)
+![.](https://github.com/Marc-Lodge/Environmental_Performance_Index/blob/main/Images/Hist.png)
 
 Lastly for the EDA, we have used a histogram to check the distribution of the target variable. I notice there is some skew, to combat this I could have used the EPI data which took the change over a 10 year period vs just for one year as it was more evenly distributed. However, I ultimately decided that while that can be looked at, for the initial part of this project at least, I'd aim for the singular year (2020) 'spot' data.
 
@@ -96,15 +96,15 @@ Lastly for the EDA, we have used a histogram to check the distribution of the ta
 
 ### Simple Linear Regression
 
-![.](https://github.com/Marc-Lodge/Environmental_Performance_Index/blob/main/EPIvGDP.png) 
+![.](https://github.com/Marc-Lodge/Environmental_Performance_Index/blob/main/Images/EPIvGDP.png) 
 
 Despite some wealthy outliers skewing the data, the correlation between GDP and EPI is undeniable.
 
-![.](https://github.com/Marc-Lodge/Environmental_Performance_Index/blob/main/EPIvLE.png) 
+![.](https://github.com/Marc-Lodge/Environmental_Performance_Index/blob/main/Images/EPIvLE.png) 
 
 An unexpectedly strong correlation between the EPI and life-expectancy can be seen here, marginally higher than with GDP. Further, the Grouping of the regions is more pronounced than with any of the other variables.
 
-![.](https://github.com/Marc-Lodge/Environmental_Performance_Index/blob/main/EPIvGrowth.png) 
+![.](https://github.com/Marc-Lodge/Environmental_Performance_Index/blob/main/Images/EPIvGrowth.png) 
 
 The negative correlation on display here, not between the population size but population growth is clear; uncontrolled population growth is more of an issue than large populations that have stable and sustainable growth.
 
