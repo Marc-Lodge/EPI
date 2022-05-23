@@ -2,7 +2,7 @@
 
 <!-- ![.](https://github.com/Marc-Lodge/Environmental_Performance_Index/blob/main/epivsair.png) -->
 
-This Capstone is the last of 5 projects on My Data Science Immersive with General Assembly. Each project focused on a particular element of the curriculum, with each next project including every element done prior, with an added element. This project covers several of those elements into one; Pure Python, Exploratory Data Analysis, Modelling and Model Evaluation.
+This project covers several of the data science topics I have learnt, all in one; Pure Python, Exploratory Data Analysis, Supervised Machine Learning Modelling and Model Evaluation.
 
 ![World](https://sb.ecobnb.net/app/uploads/sites/3/2016/02/green-world-1170x490.jpg)
 
